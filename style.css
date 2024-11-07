@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    padding: auto;
+    background-color: lightsteelblue;
+    
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0 , 0.5);
+    padding: auto;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: auto;
+    margin-bottom: 20px;
+    background-color: rgb(147, 181, 170);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,textarea {
+    width: calc(100%-1px);
+    padding: auto;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: auto;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(121, 150, 140);
+}
+
+
+
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgb(0, 0, 0 , 0.5);
+    
+}
+
+
+#resumeOutput h3 {
+       color: rgb(122, 174, 157);
+}
